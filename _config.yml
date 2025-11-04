@@ -1,0 +1,24 @@
+title: My Jekyll Theme
+description: A custom Jekyll theme for my website.
+baseurl: ""
+url: "http://example.com"
+theme: "pages-theme"
+author:
+  name: "Your Name"
+  email: "your.email@example.com"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+markdown: kramdown
+permalink: pretty
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - pages-theme.gemspec
+  - _config.yml
+  - _layouts
+  - _includes
+  - _sass
+  - assets
+  - pages
