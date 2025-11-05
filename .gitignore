@@ -1,0 +1,4 @@
+
+# ignore built gems
+pages-theme-*.gem
+pkg/
